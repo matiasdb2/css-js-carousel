@@ -1,0 +1,17 @@
+body{
+    background-color:black
+  }
+  .carousel {
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-images img {
+    margin-right: 0px;
+  }
